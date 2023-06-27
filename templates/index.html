@@ -1,0 +1,296 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="{% static './images/logodt.png' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <script src="https://kit.fontawesome.com/a76070024d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static './css/style.css' %}">
+</head>
+<body>
+    <div class="container-major">
+        <!-- HEADER STARTS HERE -->
+        <div class="header-flex">
+
+            <div class="logo-ex">
+
+                <div class="logo"><img src="{% static './images/logo-sky.jpeg' %}" alt=""></div>
+
+
+                <div class="form">
+
+                    <select name="Explore" id="" onchange="window.location.href=this.value">
+
+                        <option value="##choose">Explore</option>
+                        <option value="#about-us">About Us</option>
+                        <option value="#learn">Learn</option>
+                        <option value="##home">BFB-0011</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="open"><i class="fa-solid fa-bars" id="show-menu" onclick="showmenu()"></i></div>
+
+            <!-- <div class="container-menu"> -->
+                <ul id="nav">
+                    <li><a href="">Find your New Career</a></li>
+                    <li><a href="">For Enterprise</a></li>
+                    <li><a href="">For Universities</a></li>
+                    <li><a href="" class="lg">Log in</a></li>
+                    <li><a href="" class="btn1">Join for Free</a></li>;                    <div class="close"><i class="fa-solid fa-xmark" id="close-menu" onclick="hidemenu()"></i></div>
+                </ul>
+            <!-- </div> -->
+
+        </div>
+
+
+        <!-- CODE FOR CONTAINER-BODY STARTS HERE -->
+        <div class="container-body">
+
+            <div class="container-bflex">
+
+                <div class="container-b1">
+
+                    <h1>Learn without limits</h1>
+                    <p>Start,Switch, or advance your Career with more than 5400 <br> 
+                        Courses, Professional Certificates and Degrees from <br> 
+                        world-class Universities and Companies</p>
+
+                    <div class="btn2-3">
+                        <div class="bt1"><a href="" class="btna">Join For Free</a></div>
+
+                        <div class="bt2"><a href="" class="btnb">Try Coursera For Business</a></div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="container-b2">
+                    <img src="{% static './images/homepage_Image-removebg-preview.png' %}" alt="">
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- CONTAINER-BODY2 STARTS HERE -->
+        <div class="container-body2">
+
+            <img src="{% static './images/sec2-top-pix-removebg-preview.png' %}" alt="" 
+            class="top">
+            <h1 class="top-h1">Why Skyline Ict Works</h1>
+
+            <div class="subsec-flex">
+
+                <div class="subsec1">
+                    <img src="{% static './images/personalized_learning_icon.png' %}" alt="">
+                    <h1>Personalised Learning</h1>
+                    <p>Students practice at their own pace,<br> 
+                        first filling in gaps in their <br> 
+                        understanding and then accelerating <br> 
+                        their learning.</p>
+                </div>
+
+                <div class="subsec2">
+                    <img src="{% static './images/trusted_content_icon.png' %}" alt="">
+                    <h1>Trusted content</h1>
+                    <p>Created by experts,Skyline ict library of <br> 
+                        trusted practice and lessons covers math,<br> 
+                        science, and more. Always free for learners <br> 
+                        and teachers.</p>
+                </div>
+
+                <div class="subsec3">
+                    <img src="{% static './images/empower_teachers_icon.png' %}" alt="">
+                    <h1>Tools to empower Teachers</h1>
+                    <p>With Skyline Learning,teachers can identify <br> 
+                        gaps in their students' understanding, and <br> 
+                        tailor instruction and tailor instruction to <br> 
+                        meet the needs of every student.</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- CONTAINER-BODY3 CODE STARTS HERE-->
+        <div class="container-body-3">
+
+            <p>Master valuable programming <br> skills</p>
+            <a href="" class="btn4">GET STARTED</a>
+
+        </div>
+
+
+        <!-- CONTAINER-BODY4 CODE STARTS HERE-->
+        <div class="container-body4">
+
+            <div class="body4-flex">
+
+                <div class="body-i">
+                    <h8>LEARNERS AND STUDENTS</h8>
+                    <br> <br> <br>
+                    <h1 id="learn"><span class="you">You</span> can learn <br> anything</h1>
+                    <br> <br>
+                    <p>Build a deep,solid understanding in math,science and more.</p>
+                    <br> <br> <br>
+                    <a href="" class="btn5">Learners,start here</a>
+                </div>
+
+                <div class="body-img">
+                    <img src="{% static './images/px.png' %}" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CONTAINER5 CODE STARTS-->
+        <div class="container5">
+
+            <div class="container5-flex">
+
+                <div class="container5-items1">
+                    <img src="{% static './images/pic5a.png' %}" alt="">
+                </div>
+
+                <div class="container5-items2">
+                    <br>
+                    <h1 style="font-size: 25px;">THE PLAN</h1>
+                    <br>
+                    <p>We prioritize objectives,remain <br> 
+                        competitive and optimize financial <br> 
+                        goals.This enables us to <br> 
+                        differentiate our uniqueness from <br> 
+                        the competition,measure progress <br> 
+                        & offer the best chance at success.</p>
+                        <br> <br>
+                    <a href="" class="btn6"><i class="fa-solid fa-money-bill-trend-up"></i> OUR PLAN</a>
+                </div>
+
+                <div class="container5-items3">
+                    <img src="{% static './images/pic5b.png' %}" alt="">
+                </div>
+
+                <div class="container5-items4">
+                    <br>
+                    <h1 style="font-size: 25px;">INNOVATE</h1>
+                    <br>
+                    <p>As a leading legal service provider, <br>
+                        we are client-centric with a future <br> 
+                        -oriented law business model not <br> 
+                        undermining our desire to aid <br> 
+                        access to justice and inclusion.</p>
+                        <br> <br> <br>
+                    <a href="" class="btn7"><i class="fa-solid fa-money-bill-trend-up"></i> READ MORE</a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- CONTAINER6 CODE STARTS HERE -->
+        <div class="container6">
+
+            <div class="container6-flex">
+
+                <div class="container-image">
+                    <img src="{% static './images/1.png' %}" alt="">
+                </div>
+
+                <div class="container-vision">
+
+                    <h1 id="about-us">Our Vision is very unique. <br> 
+                        To Equip Nigerians. <br> 
+                        Real results.</h1>
+                    <p>We're a non-profit with the mission to provide a free,world-class <br> 
+                        education for anyone,anywhere.
+                    </p>
+                
+                    <ol>
+                        <li><a href="" class="btn8">Learners</a></li>
+                        <li><a href="" class="btn9">Students</a></li>
+                        <li><a href="" class="btn10">Login</a></li>
+                    </ol>
+
+                </div>  
+
+            </div>
+
+
+        </div>
+
+
+        <!-- FOOTER CODE STARTS HERE -->
+        <div class="footer-container">
+
+            <div class="footer-flex">
+
+                <div class="footer-items">
+                    <h1>PORT HARCOURT OFFICE</h1>
+                    <p>11 Ede Street, Nkpogu 500101,<br>
+                        Port harcourt, Rivers state. <br>
+                        +2348101524926, +2348101524926
+                        info@skylineict.com,<br> 
+                        skylineict@gmail.com</p>
+                </div>
+
+                <div class="footer-items">
+                    <h1>ABOUT US</h1>
+                    <p>Skyline ICT Consult ltd is a highly professional <br> 
+                        I.C.T services provider,with the Vision of putting <br> 
+                        Business,organization and cooperate organizations <br> 
+                        onto the world wide web, We provided quality services <br> 
+                        for our clients.</p>
+                </div>
+
+                <div class="footer-items">
+                    <h1>U A E</h1>
+                    <p>Al Taawun St, Near Sharjah Palace hotel</p>
+                </div>
+
+                <div class="footer-items">
+                    <h1>UNITED STATES</h1>
+                    <p>St Petersburg Florida,<br> USA <br>
+                        Whatsapp or call: +13059286480</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <!-- CODE FOR JAVASCRIPT -->
+    <script>
+
+        const menu = document.getElementById('nav');
+        function showmenu(){
+            menu.style.right = '0'
+        }
+
+        function hidemenu(){
+            menu.style.right = '-250px'
+        }
+
+    </script>
+
+    
+</body>
+</html>
